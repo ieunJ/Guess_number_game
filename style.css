@@ -93,7 +93,9 @@ body{
 
 @media (max-width:480px) {
     .mainarea{
-        background-position:center;
+        height:700px;
+        padding-top:150px;
+        background-position:10% 25%;
         background-size:100%;
     }
     .main-text{
@@ -127,6 +129,7 @@ body{
     .button-go{
         width:60px;
         height:40px;
+        margin-right:10px;
         border-radius:100%;
         background-color:#e7729e;
         color:black;
