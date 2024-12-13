@@ -11,16 +11,17 @@ body{
 }
 
 .mainarea{
-    height:600px;
+    height:868px;
     text-align:center;
+    background-color:#210e45;
+    padding-top:0px;
     background-image:url(https://i.pinimg.com/736x/fb/e3/38/fbe3389b51b986a6ed2b5de11ef04efd.jpg);
     background-size:80%;
     background-repeat:no-repeat;
     background-position:center;
-    background-color:#210e45;
-    padding-top:330px;
-    
 }
+
+
 
 .main-image{
     width:40px;
@@ -28,6 +29,7 @@ body{
 }
 
 .main-text{
+    padding-top:300px;
     font-family: bangers;
     letter-spacing:0.1em;
     color : white;
@@ -90,19 +92,29 @@ body{
     font-size:1.2em;
 }
 
+.button-go:hover{
+    cursor:pointer;
+}
+
+.button-retry:hover{
+    cursor:pointer;
+}
+
+
 
 @media (max-width:480px) {
+
     .mainarea{
-        height:700px;
-        padding-top:150px;
-        background-position:10% 25%;
-        background-size:100%;
+        height: 932px;
+        padding-top:0px;
+        background-repeat:repeat-y;
+
     }
     .main-text{
         letter-spacing:0.1em;
         color : white;
         font-size:32px;
-        padding-top:60px;
+        padding-top:370px;
         margin-bottom:5px;
         
     }
@@ -161,5 +173,7 @@ body{
     .mainarea{
         background-position:center;
         background-size:100%;
+        padding-top:0px;
+        background-repeat:repeat-y;
 }
 }

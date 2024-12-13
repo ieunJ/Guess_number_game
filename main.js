@@ -71,7 +71,7 @@ function reset(){
     chanceArea.textContent = "chance left : 10"
     gameOver=false;
     userButton.disabled=false;
-    chances=5;
+    chances=10;
     chanceArea.textContent = `chance left ${chances}`
     history = []
     mainImage.src="https://media.tenor.com/fB2Ajk7ICXEAAAAj/storymaker-story-time.gif"
