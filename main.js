@@ -4,7 +4,7 @@ let userInput = document.getElementById("user-input")
 let userButton = document.getElementById("user-button")
 let resultArea = document.getElementById("result-area")
 let resetButton = document.getElementById("reset-button")
-let chances = 5
+let chances = 10
 let chanceArea = document.getElementById("chance-area")
 let mainImage = document.querySelector(".main-image")
 let gameOver = false
@@ -68,7 +68,7 @@ function reset(){
     userInput.value = ""
     matchnumber()
     resultArea.textContent="Let's try"
-    chanceArea.textContent = "chance left : 5"
+    chanceArea.textContent = "chance left : 10"
     gameOver=false;
     userButton.disabled=false;
     chances=5;
