@@ -141,7 +141,7 @@ body{
     .button-go{
         width:60px;
         height:40px;
-        margin-right:10px;
+        padding-right:3px;
         border-radius:100%;
         background-color:#e7729e;
         color:black;
