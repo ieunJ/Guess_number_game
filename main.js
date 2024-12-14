@@ -4,7 +4,7 @@ let userInput = document.getElementById("user-input")
 let userButton = document.getElementById("user-button")
 let resultArea = document.getElementById("result-area")
 let resetButton = document.getElementById("reset-button")
-let chances = 10
+let chances = 5
 let chanceArea = document.getElementById("chance-area")
 let mainImage = document.querySelector(".main-image")
 let gameOver = false
@@ -68,10 +68,10 @@ function reset(){
     userInput.value = ""
     matchnumber()
     resultArea.textContent="Let's try"
-    chanceArea.textContent = "chance left : 10"
+    chanceArea.textContent = "chance left : 5"
     gameOver=false;
     userButton.disabled=false;
-    chances=10;
+    chances=5;
     chanceArea.textContent = `chance left ${chances}`
     history = []
     mainImage.src="https://media.tenor.com/fB2Ajk7ICXEAAAAj/storymaker-story-time.gif"
