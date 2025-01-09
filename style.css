@@ -1,0 +1,154 @@
+.bangers-regular {
+    font-family: "Bangers", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.tourney {
+  font-family: "Tourney", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+body{
+    margin:0px;
+    background-image:url(https://i.pinimg.com/originals/cc/c9/8c/ccc98cb3e5e7e7d143bf17ec04e74be9.gif);
+    background-size:80% 80%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color:black;
+    color:white;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+
+
+.headline{
+    margin-top:100px;
+    letter-spacing:2px;
+    font-family: "Bangers", serif;
+}
+
+
+.result-image{
+    width: 15vw;
+    height: 15vw;
+}
+
+.resultarea{
+margin: 16px 0px;
+font-size:1.2em;
+letter-spacing:1px;
+font-family: "Bangers", serif;
+}
+
+.inputarea{
+    border-radius:20px;
+    border:2px solid #dfe1e5;
+    width:120px;
+    height:30px;
+    background-color:white;
+    font-size:16px;
+    padding:0 15px;
+    text-align:center;
+    color:#3867d6;
+    font-weight:300;
+    font-family: bangers-regular;
+    letter-spacing:2px;
+}
+
+input::placeholder {
+    color: #a4b0be;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.gobutton{
+margin-left:5px;
+width:50px;
+height:40px;
+border-radius:100%;
+background-color:#3867d6;
+border:2px solid #dfe1e5;
+color:white;
+font-weight:700;
+font-size:16px;
+font-family: bangers-regular;
+letter-spacing:1.8px;
+}
+
+
+.chancearea{
+    margin-top:8px;
+    margin-bottom:15px;
+    letter-spacing:1.2px;
+    font-family: "Bangers", serif;
+}
+
+.resetbutton{
+    width:80px;
+    height:24px;
+    border-radius:8%;
+    background-color:white;
+    border:2px solid #dfe1e5;
+    color:#3867d6;
+    font-weight:100;
+    font-style:italic;
+    font-size:14px;
+    font-family: bangers-regular;
+    letter-spacing:1.8px;
+}
+
+
+
+@media (max-width:600px) {
+
+    body{
+        margin:0px;
+        background-image:url(https://i.pinimg.com/originals/cc/c9/8c/ccc98cb3e5e7e7d143bf17ec04e74be9.gif);
+        background-size:100% 70%;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-color:black;
+        color:white;
+    }
+    .result-image{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+@media (min-width:500px) and (max-width:1120px){
+
+    body{
+        margin:0px;
+        background-image:url(https://i.pinimg.com/originals/cc/c9/8c/ccc98cb3e5e7e7d143bf17ec04e74be9.gif);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-color:black;
+        color:white;
+    }
+.headline{
+    margin-top:150px;
+}
+
+.result-image{
+    width: 20vw;
+    height: 20vw;
+}
+
+}
