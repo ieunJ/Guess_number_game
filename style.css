@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bangers-regular {
     font-family: "Bangers", serif;
     font-weight: 300;
@@ -88,6 +89,7 @@ font-weight:700;
 font-size:16px;
 font-family: bangers-regular;
 letter-spacing:1.8px;
+padding:0px;
 }
 
 
@@ -110,10 +112,113 @@ letter-spacing:1.8px;
     font-size:14px;
     font-family: bangers-regular;
     letter-spacing:1.8px;
+=======
+body{
+    margin:0px 0px;
+}
+
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainarea{
+    height:868px;
+    text-align:center;
+    background-color:#210e45;
+    padding-top:0px;
+    background-image:url(https://i.pinimg.com/736x/fb/e3/38/fbe3389b51b986a6ed2b5de11ef04efd.jpg);
+    background-size:80%;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 
 
+.main-image{
+    width:40px;
+    height:40px;
+}
+
+.main-text{
+    padding-top:300px;
+    font-family: bangers;
+    letter-spacing:0.1em;
+    color : white;
+    font-size:50px;
+    margin-bottom:30px;
+    
+}
+
+.sub-text{
+    font-family: bangers;
+    color : #f19da1;
+    font-size: 32px;
+    margin-bottom:15px;
+    letter-spacing:0.05em;
+}
+
+.foot-text{
+    font-family: bangers;
+    color : #f19da1;
+    margin-top:15px;
+    letter-spacing:0.05em;
+    font-size:20px;
+}
+
+.input-area{
+    width:250px;
+    height:30px;
+    background-color:#ecd9d9;
+    font-size:20px;
+    border-radius:8px;
+    border:none;
+    padding-left:40px;
+    font-family:DungGeunMo;
+
+}
+
+
+.button-area{
+    margin-top:15px;
+}
+
+.button-go{
+    width:80px;
+    height:50px;
+    border-radius:100%;
+    background-color:#e7729e;
+    font-family:DungGeunMo;
+    border:none;
+    font-size:1.2em;
+}
+
+.button-retry{
+    width:80px;
+    height:50px;
+    margin-left:10px;
+    border-radius:100%;
+    background-color:#f8db73;
+    font-family:DungGeunMo;
+    border:none;
+    font-size:1.2em;
+}
+
+.button-go:hover{
+    cursor:pointer;
+}
+
+.button-retry:hover{
+    cursor:pointer;
+>>>>>>> ef7c339c03d05bc3bee9c8a730cd4f66a45cd372
+}
+
+
+
+<<<<<<< HEAD
 @media (max-width:600px) {
 
     body{
@@ -151,4 +256,80 @@ letter-spacing:1.8px;
     height: 20vw;
 }
 
+=======
+@media (max-width:480px) {
+
+    .mainarea{
+        height: 700px;
+        padding-top:0px;
+        background-repeat:repeat-y;
+
+    }
+    .main-text{
+        letter-spacing:0.1em;
+        color : white;
+        font-size:32px;
+        padding-top:250px;
+        margin-bottom:5px;
+        
+    }
+    .sub-text{
+        font-family: bangers;
+        color : #f19da1;
+        font-size: 22px;
+        margin-bottom:5px;
+        padding-top:2px;
+        letter-spacing:0.07em;
+    }
+    
+    .foot-text{
+        font-family: bangers;
+        color : #f19da1;
+        margin-top:12px;
+        letter-spacing:0.05em;
+        font-size:15px;
+    }
+    .button-area{
+        margin-top:10px;
+    }
+    
+    .button-go{
+        width:60px;
+        height:40px;
+        padding-right:3px;
+        border-radius:100%;
+        background-color:#e7729e;
+        color:black;
+        text-align:center;
+        font-family:DungGeunMo;
+        border:none;
+        font-size:1.1em;
+    }
+    
+    .button-retry{
+        width:60px;
+        height:40px;
+        margin-left:10px;
+        border-radius:100%;
+        color:black;
+        text-align:center;
+        background-color:#f8db73;
+        font-family:DungGeunMo;
+        border:none;
+        font-size:1.1em;
+    }
+    .main-image{
+        width:20px;
+        height:20px;
+        padding-top:5px;
+    }
+}  
+@media (max-width:1014px){
+    .mainarea{
+        background-position:center;
+        background-size:100%;
+        padding-top:0px;
+        background-repeat:repeat-y;
+}
+>>>>>>> ef7c339c03d05bc3bee9c8a730cd4f66a45cd372
 }
